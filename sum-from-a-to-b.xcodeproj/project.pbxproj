@@ -12,7 +12,8 @@
 		22749E6B1FD5CB94009B1F2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22749E691FD5CB94009B1F2D /* Main.storyboard */; };
 		22749E6D1FD5CB94009B1F2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22749E6C1FD5CB94009B1F2D /* Assets.xcassets */; };
 		22749E701FD5CB94009B1F2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22749E6E1FD5CB94009B1F2D /* LaunchScreen.storyboard */; };
-		22749E7B1FD5CB94009B1F2D /* sum_from_a_to_bTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22749E7A1FD5CB94009B1F2D /* sum_from_a_to_bTests.swift */; };
+		22749E7B1FD5CB94009B1F2D /* sum_from_a_to_b_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22749E7A1FD5CB94009B1F2D /* sum_from_a_to_b_Tests.swift */; };
+		22749E861FD5CBD6009B1F2D /* sums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22749E851FD5CBD6009B1F2D /* sums.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,8 +35,9 @@
 		22749E6F1FD5CB94009B1F2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22749E711FD5CB94009B1F2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22749E761FD5CB94009B1F2D /* sum-from-a-to-bTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sum-from-a-to-bTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		22749E7A1FD5CB94009B1F2D /* sum_from_a_to_bTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sum_from_a_to_bTests.swift; sourceTree = "<group>"; };
+		22749E7A1FD5CB94009B1F2D /* sum_from_a_to_b_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sum_from_a_to_b_Tests.swift; sourceTree = "<group>"; };
 		22749E7C1FD5CB94009B1F2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22749E851FD5CBD6009B1F2D /* sums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sums.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				22749E651FD5CB94009B1F2D /* AppDelegate.swift */,
 				22749E671FD5CB94009B1F2D /* ViewController.swift */,
+				22749E851FD5CBD6009B1F2D /* sums.swift */,
 				22749E691FD5CB94009B1F2D /* Main.storyboard */,
 				22749E6C1FD5CB94009B1F2D /* Assets.xcassets */,
 				22749E6E1FD5CB94009B1F2D /* LaunchScreen.storyboard */,
@@ -90,7 +93,7 @@
 		22749E791FD5CB94009B1F2D /* sum-from-a-to-bTests */ = {
 			isa = PBXGroup;
 			children = (
-				22749E7A1FD5CB94009B1F2D /* sum_from_a_to_bTests.swift */,
+				22749E7A1FD5CB94009B1F2D /* sum_from_a_to_b_Tests.swift */,
 				22749E7C1FD5CB94009B1F2D /* Info.plist */,
 			);
 			path = "sum-from-a-to-bTests";
@@ -199,6 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22749E861FD5CBD6009B1F2D /* sums.swift in Sources */,
 				22749E681FD5CB94009B1F2D /* ViewController.swift in Sources */,
 				22749E661FD5CB94009B1F2D /* AppDelegate.swift in Sources */,
 			);
@@ -208,7 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22749E7B1FD5CB94009B1F2D /* sum_from_a_to_bTests.swift in Sources */,
+				22749E7B1FD5CB94009B1F2D /* sum_from_a_to_b_Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
