@@ -4,10 +4,18 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>sum-from-a-to-b.xcscheme</key>
+		<key>LighthouseLabsAssignment.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>D2A5F1FF1F4A9144005CD714</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
