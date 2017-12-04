@@ -10,7 +10,11 @@ import Foundation
 
 struct Sums {
   func sum(from fromN: Int, to toN: Int) -> Int {
-    // Sum all the values from fromN up to toN
-    return -1
+    var result = fromN
+    if (fromN == toN) {
+      return result
+    }
+    result += sum(from: fromN+1, to: toN)
+    return result
   }
 }
