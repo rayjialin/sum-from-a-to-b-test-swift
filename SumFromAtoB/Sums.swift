@@ -20,6 +20,11 @@ import Foundation
 
 struct Sums {
   func sum(from fromN: Int, to toN: Int) -> Int {
-    return -1
+    var sumAB = fromN
+    if fromN == toN{
+    return sumAB
+  }
+    sumAB += sum(from: fromN + 1, to: toN)
+    return sumAB
   }
 }
